@@ -1,0 +1,25 @@
+<!-- 5. LINK AND IMAGES -->
+<!-- anchor tag, attribute name and value -->
+<a href="https://www.google.com">Click me</a>
+
+<!-- open tab in this tab-->
+<a href="https://www.google.com" target="_self">Click me</a>
+<!-- open tab in new tab-->
+<a href="https://www.google.com" target="_blank">Click me</a>
+
+
+<!-- prevent opened tab gain access to referrer -->
+<a href="https://www.google.com" target="_blank" rel="noopener">Click me</a>
+<!-- prevent opened tab gain knowing who referrer is-->
+<a href="https://www.google.com" target="_blank" rel="noreferrer">Click me</a>
+
+<!-- absolute link: protocol://domain/path -->
+<a href="https://www.google.com">Click me</a>
+<!-- relative link: rootdir/dir/subdir/path -->
+<a href="./public/src/html/index.html">Click me</a>
+
+<!-- jpg large color palette, no transparent support -->
+<!-- gif animation, no semi opaque transparent support -->
+<!-- png large file size, good transparent support -->
+<!-- svg scalable vector image -->
+<img src="../parent/child/path" alt="Figure caption in case poor network connection" height="300px" width="200px">
