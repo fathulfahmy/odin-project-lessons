@@ -1,4 +1,5 @@
 /* 2. SHRINKING AND GROWING */
+
 /* flex item shrink when container width is less than item */
 .flex-item {
 	flex-shrink: 0; /* do not shrink */
