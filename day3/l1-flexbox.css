@@ -1,0 +1,14 @@
+.container {
+	display: flex;
+
+	/* FLEX ITEM */
+	flex: 1;
+
+	/* flex-grow | flex-basis (initial width) */
+	flex: 2 30px;
+	/* flex-grow | flex-shrink */
+	flex: 2 2;
+
+	/* flex-grow | flex-shrink | flex-basis */
+	flex: 2 2 30px;
+}
