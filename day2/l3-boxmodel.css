@@ -1,0 +1,29 @@
+/* 3. BOX MODEL */
+
+/* OUTER DISPLAY */
+.box1 {
+	display: block;
+	width: 100px;
+	height: 100px;
+	padding: 50px;
+	margin: 50px;
+	border: 2px;
+}
+
+.box2 {
+	display: inline;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	/* width, height, vertical padding and margin will not take effect */
+}
+
+/* INNER DISPLAY */
+.box3 {
+	/* outer display block */
+	display: flex;
+}
+.box4 {
+	display: grid;
+}
