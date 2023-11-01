@@ -1,14 +1,14 @@
-.container {
+/* 1. INTRO TO FLEXBOX */
+.flex-container {
 	display: flex;
 
 	/* FLEX ITEM */
+	/* flex-grow | flex-shrink: 1 | flex-basis: 0 */
 	flex: 1;
-
-	/* flex-grow | flex-basis (initial width) */
+	/* flex-grow | flex-shrink: 1 | flex-basis */
 	flex: 2 30px;
-	/* flex-grow | flex-shrink */
+	/* flex-grow | flex-shrink | flex-basis: 0 */
 	flex: 2 2;
-
 	/* flex-grow | flex-shrink | flex-basis */
 	flex: 2 2 30px;
 }
