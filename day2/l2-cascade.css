@@ -1,0 +1,47 @@
+/* 2. CASCADE */
+
+/* SPECIFICITY */
+
+/* SELECTOR TYPE */
+/* id > class > type */
+.heading1 {
+	font-size: 16px;
+}
+h1 {
+	font-size: 18px;
+}
+/* this rule is applied */
+#heading1 {
+	font-size: 22px;
+}
+
+/* NUMBER OF SELECTORS */
+.navbar {
+	width: 100%;
+}
+/* this rule is applied */
+.navbar .mobile {
+	width: 50%;
+}
+
+/* INHERITANCE */
+#parent {
+	color: red;
+}
+.child {
+	/* directly targeted, this rule is applied */
+	color: blue;
+}
+
+/* ORDER OF DECLARATION */
+/* last rule is applied */
+.navbar.mobile {
+	width: 50%;
+}
+.navbar > .mobile {
+	width: 50px;
+}
+.navbar .mobile {
+	/* this rule is applied */
+	width: auto;
+}

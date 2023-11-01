@@ -1,0 +1,55 @@
+/* 1. INTRO TO CSS */
+
+.selector {
+	/* property: value */
+	height: 100px;
+}
+
+/* TYPE OF SELECTORS */
+
+/* universal selector */
+* {
+	color: #1100ff;
+}
+/* type selector */
+div {
+	border-color: rgb(100, 0, 127);
+}
+/* class selector */
+.class {
+	background-color: hsl(15, 82, 56);
+}
+/* id selector */
+#id {
+	height: 100px;
+}
+
+/* grouping selector (OR) */
+.read,
+.marked {
+	color: green;
+}
+
+/* chaining selector (AND) */
+.read.rated {
+	color: blue;
+}
+
+/* COMBINATORS */
+/* descendant combinator */
+.ancestor .child {
+	color: red;
+}
+
+/* FONTS */
+body {
+	/* top priority, fallback 1, fallback 2, fallback 3 */
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+	font-size: 22px;
+	font-weight: bold;
+	font-weight: 700;
+
+	/* horizontal align */
+	text-align: center;
+}
