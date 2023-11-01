@@ -1,0 +1,8 @@
+/* 3. AXES */
+
+.flex-container{
+    /* X as main axis, flex-basis width */
+    flex-direction: row;
+    /* Y as main axis, flex-basis height */
+    flex-direction: column;
+}

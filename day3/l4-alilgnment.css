@@ -1,0 +1,12 @@
+/* 4. ALIGNMENT */
+
+.flex-container{
+    /* ALIGN MAIN AXIS */
+    justify-content: between;
+    justify-content: center;
+
+    /* ALIGN CROSS AXIS */
+    align-items: center;
+
+    gap: 10px;
+}
