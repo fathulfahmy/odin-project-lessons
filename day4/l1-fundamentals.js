@@ -1,3 +1,5 @@
+// 1. FUNDAMENTALS 1
+
 // VARIABLES
 var x;
 let y;
