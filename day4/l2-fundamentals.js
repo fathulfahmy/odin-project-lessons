@@ -1,4 +1,4 @@
-// 2. FUNDAMENTALS 2
+// 2. FUNDAMENTALS PART 2
 
 // DECLARATION
 let string1 = "hello world";
