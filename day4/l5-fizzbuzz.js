@@ -1,5 +1,5 @@
 // When a user inputs a number
-let userNum = prompt("enter an integer");
+let userNum = parseInt(prompt("enter an integer"));
 // Loop from 1 to the entered number
 for (i = 1; i <= userNum; i++) {
 	// If the current number is divisible by 3 and 5 then print "FizzBuzz"
