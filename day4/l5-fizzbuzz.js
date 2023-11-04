@@ -1,3 +1,5 @@
+// 5. PROBLEM SOLVING
+
 // When a user inputs a number
 let userNum = parseInt(prompt("enter an integer"));
 // Loop from 1 to the entered number
