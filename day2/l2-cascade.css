@@ -2,7 +2,6 @@
 
 /* SPECIFICITY */
 
-/* SELECTOR TYPE */
 /* id > class > type */
 .heading1 {
 	font-size: 16px;
@@ -10,7 +9,7 @@
 h1 {
 	font-size: 18px;
 }
-/* this rule is applied */
+/* this css rule is applied */
 #heading1 {
 	font-size: 22px;
 }

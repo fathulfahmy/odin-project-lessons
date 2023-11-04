@@ -12,6 +12,6 @@
 }
 
 .flex-container {
-	/* flex: 1 1 auto */
 	flex: auto;
+	/* same as flex: 1 1 auto */
 }

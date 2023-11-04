@@ -1,30 +1,33 @@
 // 3. FUNDAMENTALS PART 3
 
-// DECLARATION
+// 3 ways to declare functions
+// function declaration
 function myFunc(param) {
     return result;
 }
+// function expression
 let myFunc = function(param){
     return result;
 }
-// ARROW FUNCTION
+// es6 arrow function
 let myFunc = (param) => result;
 
 function myFunc(parameter1, parameter2, parameter3 = defaultValue) {
 	return a + b * c / d;
+    // parantheses to enter newline
     return (
         a + b
         * c / d
     );
 }
 
-// ANONYMOUS FUNCTION
+// anonymous function has no function name
 console.log(function () {
     return result;
 });
 
-// ANONYMOUS ARROW FUNCTION
+// anonymous arrow function has no function name and function syntax
 () => {return result};
 
-// FUNCTION CALL
+// write function name and parantheses to call a function
 myFunc();

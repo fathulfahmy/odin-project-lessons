@@ -10,26 +10,26 @@
 	border: 2px;
 }
 .box2 {
+	/* inline display has no width, height, vertical padding and margin */
 	display: inline;
 	padding-left: 25px;
 	padding-right: 25px;
 	margin-left: 25px;
 	margin-right: 25px;
-	/* width, height, vertical padding and margin will not take effect */
 }
 .box3 {
+	/* inline-block has property of block display but positioned as inline display */
 	display: inline-block;
 	width: 100px;
 	height: 100px;
 	padding: 50px;
 	margin: 50px;
 	border: 2px;
-	/* block style, inline position */
 }
 
 /* INNER DISPLAY */
+/* flex and grid defaults to block outer display property */
 .box4 {
-	/* outer display block */
 	display: flex;
 }
 .box5 {

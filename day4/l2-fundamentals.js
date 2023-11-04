@@ -1,32 +1,34 @@
 // 2. FUNDAMENTALS PART 2
 
-// DECLARATION
+// 3 ways to declare strings
 let string1 = "hello world";
 let string2 = "hello world";
 let string3 = `hello world`;
 
-// BACKTICKS
 let string4 = "hello";
 let string5 = "world";
+// backticks can be used to concatenate strings
 console.log(`${string4} ${string5}!`);
 
-// ESCAPE CHAR
+// 2 ways to print double quotes symbols in double quoted string
 console.log('a sample of a long text and this "quote" should be displayed');
+console.log("a sample of a long text and this \"quote\" should be displayed");
 
-// NEWLINE
+// 2 ways to print strings in newline
 console.log("a sample of a long text\n and this should be in a newline");
 console.log(`a sample of a long text
 and this should be in a newline`);
 
-// COMPARISON
+// comparison operation convert string to integer
 alert(2 > 1);
-alert("2" > 1); // comparison operation convert string to integer
+alert("2" > 1); 
 alert("Z" > "A");
 
+// string always returns true
 const a = 0;
 const b = "0";
 alert(Boolean(a));
-alert(Boolean(b)); // string returns true
+alert(Boolean(b)); 
 
 alert(null == 0); // equality operator does not convert
 alert(null >= 0); // comparison operator convert null to 0
@@ -40,7 +42,7 @@ alert(false || false || false || false); // alert last value when theres no trut
 alert(true && false && false && true); // alert first falsy found
 alert(false && false && false && false); // alert last value when theres no truthy
 
-// CONDITIONALS
+// using equality comparison operator
 if (firstCondition === true) {
 	console.log("if first is true");
 } else if (secondCondition === true) {
@@ -49,6 +51,7 @@ if (firstCondition === true) {
 	console.log("if none is true");
 }
 
+// using switch conditional operator
 switch (switchCondition) {
 	case selection1:
 		// run if switchCondition === selection1
@@ -65,4 +68,5 @@ switch (switchCondition) {
 	// run if no selection
 }
 
+// if else shorthand using ? : ;
 condition == true ? console.log("this if true") : console.log("this if false");

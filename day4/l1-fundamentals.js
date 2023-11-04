@@ -1,22 +1,27 @@
 // 1. FUNDAMENTALS PART 1
 
-// VARIABLES
+// 3 ways to declare variables
 var x;
 let y;
 const z = 5;
 
-// OPERATIONS
+// operators in javascript
 x = 1 + 2 - 3;
 y = ((1 * 2) / 3) % 4;
 x ** 2;
 x++;
 x--;
 
-// ASSIGNMENT
+// assignment operataor in javascript
 x += 2;
 x -= 2;
 x *= 2;
 x /= 2;
 
-let num = "32";
-num = Number(num) + 3;
+// converting string to numbers
+let str = "32";
+num = Number(str) + 3;
+
+// converting numbers to string
+let num = 32;
+num = String(num) + 3;

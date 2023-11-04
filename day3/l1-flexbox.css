@@ -3,7 +3,7 @@
 .flex-container {
 	display: flex;
 
-	/* FLEX ITEM */
+	/* shorthand for flex item */
 	/* flex-grow | flex-shrink: 1 | flex-basis: 0 */
 	flex: 1;
 	/* flex-grow | flex-shrink: 1 | flex-basis */
