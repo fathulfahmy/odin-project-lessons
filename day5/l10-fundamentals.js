@@ -14,6 +14,16 @@ for (let i = 0; i < cars.length; i++) {
 	console.log(brandName);
 }
 
+let i = 0;
+while (i < cars.length) {
+	console.log(cars[i]);
+	i++;
+}
+
+for (const brandName of cars) {
+	console.log(brandName);
+}
+
 cars.forEach((brandName) => {
 	console.log(brandName);
 });
@@ -28,3 +38,15 @@ cars[cars.length] = "accura";
 // check data type is array
 Array.isArray(cars);
 cars instanceof Array;
+
+// map creates a new array with new value of elements
+function toUpper(brandName) {
+	return brandName.toUpperCase();
+}
+const upperCars = cars.map(toUpper);
+
+// filters creates a new array with elements that satisfy the condition
+function startsWithP(brandName) {
+	return brandName.startsWith("p");
+}
+const filteredCars = cars.filter(startsWithP);
