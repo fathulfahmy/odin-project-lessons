@@ -9,8 +9,8 @@
 h1 {
 	font-size: 18px;
 }
-/* this css rule is applied */
 #heading1 {
+	/* this css rule is applied */
 	font-size: 22px;
 }
 
@@ -18,8 +18,8 @@ h1 {
 .navbar {
 	width: 100%;
 }
-/* this rule is applied */
 .navbar .mobile {
+	/* this rule is applied */
 	width: 50%;
 }
 

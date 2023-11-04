@@ -4,12 +4,15 @@
 	display: flex;
 
 	/* shorthand for flex item */
-	/* flex-grow | flex-shrink: 1 | flex-basis: 0 */
 	flex: 1;
-	/* flex-grow | flex-shrink: 1 | flex-basis */
+	/* flex-grow | flex-shrink: 1 | flex-basis: 0 */
+	
 	flex: 2 30px;
-	/* flex-grow | flex-shrink | flex-basis: 0 */
+	/* flex-grow | flex-shrink: 1 | flex-basis */
+
 	flex: 2 2;
-	/* flex-grow | flex-shrink | flex-basis */
+	/* flex-grow | flex-shrink | flex-basis: 0 */
+
 	flex: 2 2 30px;
+	/* flex-grow | flex-shrink | flex-basis */
 }

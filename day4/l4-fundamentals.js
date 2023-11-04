@@ -1,6 +1,7 @@
 // 3. FUNDAMENTALS PART 3
 
 // 3 ways to declare functions
+
 // function declaration
 function myFunc(param) {
     return result;
@@ -14,6 +15,7 @@ let myFunc = (param) => result;
 
 function myFunc(parameter1, parameter2, parameter3 = defaultValue) {
 	return a + b * c / d;
+
     // use parantheses to enter newline
     return (
         a + b

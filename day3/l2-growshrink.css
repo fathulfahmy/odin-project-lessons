@@ -1,22 +1,26 @@
 /* 2. SHRINKING AND GROWING */
 
 /* flex item shrink when container width is less than item */
+
 .flex-item {
 	/* set flex item width scale */
-	/* do not shrink */
+
 	flex-shrink: 0;
-	flex-shrink: 1;
-	/* shrink 3X scale */
+	/* do not shrink */
+
 	flex-shrink: 3;
+	/* shrink 3X scale */
 
 	/* set flex item width */
-	/* width 0 */
+
 	flex-basis: 0;
-	/* width same as content */
+	/* width 0 */
+
 	flex-basis: auto;
+	/* width same as content */
 }
 
 .flex-container {
-	/* same as flex: 1 1 auto */
 	flex: auto;
+	/* same as flex: 1 1 auto */
 }

@@ -10,16 +10,16 @@
 	border: 2px;
 }
 .box2 {
-	/* inline display has no width, height, vertical padding and margin */
 	display: inline;
+	/* inline display has no width, height, vertical padding and margin */
 	padding-left: 25px;
 	padding-right: 25px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
 .box3 {
-	/* inline-block has property of block display but positioned as inline display */
 	display: inline-block;
+	/* inline-block has property of block display but positioned as inline display */
 	width: 100px;
 	height: 100px;
 	padding: 50px;

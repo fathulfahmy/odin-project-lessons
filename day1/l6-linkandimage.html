@@ -1,39 +1,44 @@
 <!-- 5. LINK AND IMAGES -->
 
-<!-- anchor tag redirect user to specified location -->
 <a href="https://www.google.com">Click me</a>
+<!-- anchor tag redirect user to specified location -->
 
 <!-- TARGET -->
-<!-- open link in this tab-->
 <a href="https://www.google.com" target="_self">Click me</a>
-<!-- open link in new tab-->
+<!-- open link in this tab-->
+
 <a href="https://www.google.com" target="_blank">Click me</a>
+<!-- open link in new tab-->
 
 <!-- REL -->
-<!-- prevents opened tab to gain access to referrer -->
 <a href="https://www.google.com" target="_blank" rel="noopener">Click me</a>
-<!-- prevent opened tab gain knowing who referrer is-->
+<!-- prevents opened tab to gain access to referrer -->
+
 <a href="https://www.google.com" target="_blank" rel="noreferrer">Click me</a>
+<!-- prevent opened tab gain knowing who referrer is-->
 
-<!-- absolute link redirects to a URL -->
+<!-- HREF -->
 <a href="https://www.google.com">Click me</a>
-<!-- relative link redirects to a file location -->
+<!-- absolute link redirects to a URL -->
 <a href="./public/src/html/index.html">Click me</a>
+<!-- relative link redirects to a file location -->
 
+<!-- IMAGE TYPE -->
+<img src="cat.jpg" />
 <!-- .jpg has large color palette but no transparent support -->
-<img src="cat.jpg">
+<img src="cat.gif" />
 <!-- .gif has animation but no semi opaque transparent support -->
-<img src="cat.gif">
+<img src="cat.png" />
 <!-- .png has good transparent support but large file size-->
-<img src="cat.png">
+<img src="cat.svg" />
 <!-- .svg is a scalable vector image -->
-<img src="cat.svg">
 
-<!-- ./ target this directory -->
-<!-- ../ target upper directory -->
+<!-- SRC -->
 <img
 	src="../parent/child/path"
 	alt="Figure caption in case poor network connection"
 	height="300px"
 	width="200px"
 />
+<!-- ./ target this directory -->
+<!-- ../ target upper directory -->

@@ -1,13 +1,13 @@
 /* 4. ALIGNMENT */
 
 .flex-container{
-    /* align flex item at main axis */
     justify-content: between;
     justify-content: center;
+    /* align flex item at main axis */
 
-    /* align flex item at cross axis */
     align-items: center;
+    /* align flex item at cross axis */
 
-    /* apply gap between flex items */
     gap: 10px;
+    /* apply gap between flex items */
 }
