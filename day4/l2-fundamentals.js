@@ -42,7 +42,7 @@ alert(false || false || false || false); // alert last value when theres no trut
 alert(true && false && false && true); // alert first falsy found
 alert(false && false && false && false); // alert last value when theres no truthy
 
-// using equality comparison operator
+// equality comparison operator
 if (firstCondition === true) {
 	console.log("if first is true");
 } else if (secondCondition === true) {
@@ -51,7 +51,7 @@ if (firstCondition === true) {
 	console.log("if none is true");
 }
 
-// using switch conditional operator
+// switch conditional operator
 switch (switchCondition) {
 	case selection1:
 		// run if switchCondition === selection1

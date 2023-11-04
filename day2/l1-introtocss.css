@@ -36,7 +36,7 @@ div {
 	color: blue;
 }
 
-/* descendant combinator select specified child to an ancestor*/
+/* descendant combinator selects specified child to an ancestor*/
 .ancestor .child {
 	color: red;
 }

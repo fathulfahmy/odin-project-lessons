@@ -18,10 +18,10 @@ x -= 2;
 x *= 2;
 x /= 2;
 
-// converting string to numbers
+// convert string to numbers
 let str = "32";
 num = Number(str) + 3;
 
-// converting numbers to string
+// convert numbers to string
 let num = 32;
 num = String(num) + 3;

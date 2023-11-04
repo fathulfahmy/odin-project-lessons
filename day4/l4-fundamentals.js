@@ -14,7 +14,7 @@ let myFunc = (param) => result;
 
 function myFunc(parameter1, parameter2, parameter3 = defaultValue) {
 	return a + b * c / d;
-    // parantheses to enter newline
+    // use parantheses to enter newline
     return (
         a + b
         * c / d
