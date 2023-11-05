@@ -39,7 +39,7 @@ div {
 }
 /* chain selectors (AND) by using . */
 
-.ancestor .child {
+.ancestor .any-child {
 	color: red;
 }
 /* descendant combinator selects specified child to an ancestor*/

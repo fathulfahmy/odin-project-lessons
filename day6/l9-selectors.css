@@ -1,0 +1,104 @@
+/* COMBINATORS */
+.parent > .child > .grandchild {
+	background-color: red;
+	/* child combinator */
+}
+
+.sibling1 + .sibling2 {
+	background-color: red;
+	/* select sibling after sibling1*/
+}
+
+.sibling1 + .sibling2 + .sibling3 {
+	background-color: red;
+	/* select sibling after sibling2 */
+}
+
+.sibling1 ~ div {
+	background-color: red;
+	/* select all sibling */
+}
+
+/* PSEUDO SELECTOR */
+button:focus {
+	background-color: yellow;
+}
+/* when button is selected */
+
+button:hover {
+	text-shadow: 1px 1px 2px black;
+}
+
+button:active {
+	background-color: purple;
+}
+/* when button is clicked */
+
+/* STRUCTURAL PSEUDO SELECTOR */
+:root {
+	font-size: 16px;
+	/* higher specificity, this rule is applied */
+}
+html {
+	font-size: 11px;
+}
+
+div:first-child {
+	background-color: red;
+}
+div:last-child {
+	background-color: red;
+}
+div:only-child {
+	background-color: red;
+	/* select div that has no sibling */
+}
+div:empty {
+	background-color: red;
+	/* select div that has no child */
+}
+div:nth-child(2 + 2) {
+	background-color: red;
+}
+
+/* PSEUDO ELEMENT */
+p::first-letter {
+	font-weight: bold;
+}
+p::first-line {
+	font-weight: bold;
+}
+li::marker {
+	color: red;
+	/* change list bullets or numbers */
+}
+span::before {
+	content: "What";
+}
+span::after {
+	content: "hell.";
+}
+
+/* ATTRIBUTE SELECTOR */
+[src] {
+	width: fit-content;
+}
+img[src] {
+	width: fit-content;
+}
+img[src="cat.jpg"] {
+	width: fit-content;
+}
+
+[src^="Cats"] {
+	/* select any source starts with Cats */
+	width: fit-content;
+}
+[src*="pic"] {
+	/* select any source with pic */
+	width: fit-content;
+}
+[src$=".jpg"] {
+	/* select any source end with .jpg */
+	width: fit-content;
+}
