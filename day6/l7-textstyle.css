@@ -1,0 +1,38 @@
+/* system font stack */
+body {
+	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* import online google fonts method 2 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* import downloaded fonts */
+@font-face {
+	font-family: my-font;
+	src: url(../fonts/my-font-file.ttf);
+	font-weight: bold;
+}
+
+h1 {
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	line-height: 1.5;
+
+	text-shadow: 1px 1px 2px black;
+	/* offset-x | offset-y | blur radius | color */
+
+	text-shadow: 1px 1px black;
+	/* offset-x | offset-y | color */
+
+	text-shadow: 1px 1px;
+	/* offset-x | offset-y */
+}
+
+/* apply ellipsis ... for overflowing text */
+.overflowing {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
