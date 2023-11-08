@@ -21,7 +21,9 @@ let robot = createRobot("Anthony", "2");
 
 // accessing object property
 let key = prompt("What do you want to know about the user?");
+
 console.log(user.key);
+// will returns undefined, dot notation cannot be used with string e.g. user."string"
 console.log(user[key]);
 
 for (let key in user) {
