@@ -7,8 +7,26 @@ class User {
 	sayHi() {
 		console.log(`Hello I am ${this.name}`);
 	}
+
+	set name(value) {
+		if (value.length < 4) {
+			alert("Name cannnot be less than 4 characters");
+			return;
+		}
+		this._name = value;
+		// create new variable _name
+	}
+
+	get name() {
+		return this._name;
+	}
+
+	["say" + "Age"]() {
+		// computed function name sayAge()
+		console.log(`I am ${this.age} years old`);
+	}
 }
-const user = new User("John", 18);
+const user = new User("Joe", 18);
 
 // since class is a function, func expression or named func expression is possible
 let Player = class {
