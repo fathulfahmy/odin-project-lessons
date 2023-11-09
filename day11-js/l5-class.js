@@ -25,8 +25,21 @@ class User {
 		// computed function name sayAge()
 		console.log(`I am ${this.age} years old`);
 	}
+
+	click() {
+		alert(`${this.age}`);
+	}
+	// this will refer to calling object
+
+	click = () => {
+		alert(`${this.age}`);
+	};
+	// this will refer to User.age
 }
+
 const user = new User("Joe", 18);
+
+setTimeout(User.click(), 1000);
 
 // since class is a function, func expression or named func expression is possible
 let Player = class {
