@@ -1,8 +1,10 @@
 // basic class creation
 class User {
-	constructor(name, age) {
+	#race;
+	constructor(name, age, race) {
 		this.name = name;
 		this.age = age;
+		this.#race = race;
 	}
 	sayHi() {
 		console.log(`Hello I am ${this.name}`);
@@ -37,8 +39,7 @@ class User {
 	// this will refer to User.age
 }
 
-const user = new User("Joe", 18);
-
+const user = new User("Joey", 18, "Malay");
 setTimeout(User.click(), 1000);
 
 // since class is a function, func expression or named func expression is possible
