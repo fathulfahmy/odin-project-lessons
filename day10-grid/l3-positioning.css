@@ -3,11 +3,11 @@
 	grid-template: 50px 50px 50px 50px 50px/ 50px 50px 50px 50px 50px 50px;
 	/* grid row | grid col */
 	grid-template-areas:
-		". . . . . ."
-		". . . . . ."
-		". . . kitchen kitchen kitchen"
-		". . . kitchen kitchen kitchen"
-		"closet closet closet closet . .";
+		'. . . . . .'
+		'. . . . . .'
+		'. . . kitchen kitchen kitchen'
+		'. . . kitchen kitchen kitchen'
+		'closet closet closet closet . .';
 	background-color: lightskyblue;
 }
 .room {

@@ -46,7 +46,7 @@ div {
 
 /* FONTS */
 body {
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	/* font priority - top priority, fallback 1, fallback 2, fallback 3 */
 
 	font-size: 22px;

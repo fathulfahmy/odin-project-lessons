@@ -1,11 +1,11 @@
 /* system font stack */
 body {
-	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 /* import online google fonts method 2 */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /* import downloaded fonts */
 @font-face {

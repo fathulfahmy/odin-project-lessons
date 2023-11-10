@@ -1,9 +1,9 @@
 // declare array
-const cars = ["proton", "perodua", "toyota"];
-const bikes = new Array("suzuki", "kawasaki", "yamaha");
+const cars = ['proton', 'perodua', 'toyota'];
+const bikes = new Array('suzuki', 'kawasaki', 'yamaha');
 
 // change value of an element
-cars[0] = "honda";
+cars[0] = 'honda';
 
 // convert array to strings
 console.log(cars.toString());
@@ -32,8 +32,8 @@ const firstCar = cars[0];
 const lastCar = cars[cars.length - 1];
 
 // add elements to array
-cars.push("nissan");
-cars[cars.length] = "accura";
+cars.push('nissan');
+cars[cars.length] = 'accura';
 
 // check data type is array
 Array.isArray(cars);
@@ -47,6 +47,6 @@ const upperCars = cars.map(toUpper);
 
 // filters creates a new array with elements that satisfy the condition
 function startsWithP(brandName) {
-	return brandName.startsWith("p");
+	return brandName.startsWith('p');
 }
 const filteredCars = cars.filter(startsWithP);

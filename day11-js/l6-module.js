@@ -1,11 +1,11 @@
 function functionOne() {
-	console.log("Hello");
+	console.log('Hello');
 }
 function functionTwo() {
-	console.log("World");
+	console.log('World');
 }
 function functionThree() {
-	console.log("!!!");
+	console.log('!!!');
 }
 
 export { functionOne, functionTwo };

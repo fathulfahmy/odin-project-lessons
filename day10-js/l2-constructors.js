@@ -1,9 +1,9 @@
 const playerOne = {
-	name: "John",
+	name: 'John',
 	age: 18,
 };
 const playerTwo = {
-	name: "Jack",
+	name: 'Jack',
 	age: 20,
 };
 
@@ -16,8 +16,8 @@ function Player(name, age) {
 	};
 }
 
-const player1 = new Player("John", 18);
-const player2 = new Player("Jack", 20);
+const player1 = new Player('John', 18);
+const player2 = new Player('Jack', 20);
 player1.sayName();
 
 // player constructor can be edited
@@ -33,7 +33,7 @@ function Defender(name) {
 	this.name = name;
 }
 Defender.prototype.saySide = function () {
-	console.log("Defending!");
+	console.log('Defending!');
 };
 
 Object.setPrototypeOf(Player.prototype, Defender.prototype);

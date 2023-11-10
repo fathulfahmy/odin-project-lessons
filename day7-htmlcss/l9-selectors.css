@@ -73,10 +73,10 @@ li::marker {
 	/* change list bullets or numbers */
 }
 span::before {
-	content: "What";
+	content: 'What';
 }
 span::after {
-	content: "hell.";
+	content: 'hell.';
 }
 
 /* ATTRIBUTE SELECTOR */
@@ -86,19 +86,19 @@ span::after {
 img[src] {
 	width: fit-content;
 }
-img[src="cat.jpg"] {
+img[src='cat.jpg'] {
 	width: fit-content;
 }
 
-[src^="Cats"] {
+[src^='Cats'] {
 	/* select any source starts with Cats */
 	width: fit-content;
 }
-[src*="pic"] {
+[src*='pic'] {
 	/* select any source with pic */
 	width: fit-content;
 }
-[src$=".jpg"] {
+[src$='.jpg'] {
 	/* select any source end with .jpg */
 	width: fit-content;
 }

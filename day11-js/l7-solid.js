@@ -64,7 +64,7 @@ class Square extends Shape {
 class Bird {}
 class Penguin {}
 const fly = function fly() {
-	console.log("I am flying");
+	console.log('I am flying');
 };
 
 Object.assign(Bird.prototype, fly);
@@ -76,9 +76,9 @@ class PurchaseHandler {
 		const paymentSuccess = PaymentHandler.processPayment();
 
 		if (paymentSuccess) {
-			console.log("Transaction approved");
+			console.log('Transaction approved');
 		} else {
-			console.log("Transaction denied");
+			console.log('Transaction denied');
 		}
 	}
 }
