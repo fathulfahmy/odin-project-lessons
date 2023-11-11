@@ -12,7 +12,7 @@ console.log(`${string4} ${string5}!`);
 
 // 2 ways to print double quotes symbols in double quoted string
 console.log('a sample of a long text and this "quote" should be displayed');
-console.log('a sample of a long text and this \"quote\" should be displayed');
+console.log('a sample of a long text and this "quote" should be displayed');
 
 // 2 ways to print strings in newline
 console.log('a sample of a long text\n and this should be in a newline');

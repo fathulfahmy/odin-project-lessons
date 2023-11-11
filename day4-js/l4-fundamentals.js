@@ -17,11 +17,7 @@ function myFunc(parameter1, parameter2, parameter3 = defaultValue) {
 	return a + (b * c) / d;
 
 	// use parantheses to enter newline
-	return (
-		a + 
-		b * c 
-		/ d
-	);
+	return a + (b * c) / d;
 }
 
 // anonymous function has no function name
