@@ -14,15 +14,15 @@ fetch('https://www.boredapi.com/api/activity', { mode: 'cors' })
 fetch('https://www.boredapi.com/api/activity', { mode: 'cors' })
 	.then(function (response) {
 		return response.json();
-	}).then(function(response){
-    console.log(response);
+	}).then(function(result){
+    console.log(result);
     // take result of the resolved promise
   });
 
 fetch('https://www.boredapi.com/api/activity', { mode: 'cors' })
 	.then(function (response) {
 		return response.json();
-	}).then(function(response){
-    console.log(response.activity);
+	}).then(function(result){
+    console.log(result.activity);
     // access object key and return value
   });
