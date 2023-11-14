@@ -1,0 +1,72 @@
+div {
+	height: 100px;
+	width: 100px;
+	margin: 10px auto;
+	background-color: blue;
+	color: white;
+}
+
+.rotate-by-deg {
+	transform: rotate(90deg);
+}
+.rotate-by-rad {
+	transform: rotate(1.5708rad);
+}
+.rotate-by-turn {
+	transform: rotate(0.25turn);
+}
+
+.scale-x {
+	transform: scaleX(0.5);
+}
+.scale-y {
+	transform: scaleY(0.5);
+}
+.scale-xy {
+	transform: scale(0.5);
+}
+
+.skew-x {
+	transform: skewX(45deg);
+}
+.skew-y {
+	transform: skewY(45deg);
+}
+.skew-xy {
+	transform: skew(45deg, 45deg);
+}
+
+.translate-x {
+	transform: translateX(20px);
+}
+.translate-y {
+	transform: translateY(20px);
+}
+.translate-xy {
+	transform: translate(20px, 20px);
+}
+
+.rotate-x {
+	transform: rotateX(60deg);
+}
+.rotate-y {
+	transform: rotateY(60deg);
+}
+.rotate-z {
+	transform: rotateZ(60deg);
+}
+.rotate-3d {
+	transform: rotate3d(1, 1, 1, 60deg);
+  /* x, y, z, angle */
+}
+
+.scale-z{
+  transform: perspective(400px) scaleZ(2) translateZ(-100px);
+}
+.scale-3d{
+  transform: perspective(400px) scale(2, 0.7, 0.2) translateZ(100px);
+}
+
+.translate-3d{
+  transform: perspective(400px) translate(50px, -50px, -50px);
+}
