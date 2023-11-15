@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media print and (max-width: 600px) {
+}
+
+/* method 1: default style for desktop */
+@media (max-width: 1200px) {
+	/* tablet */
+}
+@media (max-width: 600px) {
+	/* mobile */
+}
+
+/* method 1: default style for mobile */
+@media (min-width: 600px) {
+	/* tablet */
+}
+@media (min-width: 1200px) {
+	/* desktop */
+}
