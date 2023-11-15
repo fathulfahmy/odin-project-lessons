@@ -1,41 +1,41 @@
 .box {
-	background-color: pink;
-	width: 200px;
-	height: 200px;
-	animation-name: myframe2;
-	animation-duration: 3s;
-	animation-delay: 0s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-direction: normal;
-	animation-fill-mode: forwards;
-	animation-play-state: running;
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  animation-name: myframe2;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
 }
 
 @keyframes myframe {
-	from {
-	}
-	to {
-		height: 600px;
-	}
+  from {
+  }
+  to {
+    height: 600px;
+  }
 }
 
 @keyframes myframe2 {
-	/* keyframe at 0% */
-	0% {
-		height: 200px;
-	}
+  /* keyframe at 0% */
+  0% {
+    height: 200px;
+  }
 
-	/* keyframe from 50% to 100% */
-	50%,
-	100% {
-		height: 300px;
-		width: 400px;
-	}
+  /* keyframe from 50% to 100% */
+  50%,
+  100% {
+    height: 300px;
+    width: 400px;
+  }
 
-	/* keyframe at 100% */
-	100% {
-		height: 700px;
-		background-color: orange;
-	}
+  /* keyframe at 100% */
+  100% {
+    height: 700px;
+    background-color: orange;
+  }
 }

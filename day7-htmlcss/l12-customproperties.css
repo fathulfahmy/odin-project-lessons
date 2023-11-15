@@ -1,20 +1,20 @@
 :root.light {
-	--background-color-base: #ffffff;
-	background-color: var(--background-color-base, white);
-	/* var(default, fallback) */
+  --background-color-base: #ffffff;
+  background-color: var(--background-color-base, white);
+  /* var(default, fallback) */
 }
 :root.dark {
-	--background-color-base: #000000;
-	background-color: var(--background-color-base, black);
+  --background-color-base: #000000;
+  background-color: var(--background-color-base, black);
 }
 
 :root {
-	--background-color-base: #ffffff;
-	background-color: var(--background-color-base, white);
+  --background-color-base: #ffffff;
+  background-color: var(--background-color-base, white);
 }
 @media (prefers-color-scheme: dark) {
-	:root {
-		--background-color-base: #000000;
-		background-color: var(--background-color-base, black);
-	}
+  :root {
+    --background-color-base: #000000;
+    background-color: var(--background-color-base, black);
+  }
 }

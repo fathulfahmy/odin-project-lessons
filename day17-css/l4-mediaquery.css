@@ -9,16 +9,16 @@
 
 /* method 1: default style for desktop */
 @media (max-width: 1200px) {
-	/* tablet */
+  /* tablet */
 }
 @media (max-width: 600px) {
-	/* mobile */
+  /* mobile */
 }
 
 /* method 1: default style for mobile */
 @media (min-width: 600px) {
-	/* tablet */
+  /* tablet */
 }
 @media (min-width: 1200px) {
-	/* desktop */
+  /* desktop */
 }

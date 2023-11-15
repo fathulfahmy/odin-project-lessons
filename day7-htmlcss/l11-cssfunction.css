@@ -1,17 +1,17 @@
 :root {
-	/* variables */
-	--header: 3rem;
-	--footer: 40px;
-	--main: calc(100vh - calc(var(--header) + var(--footer)));
+  /* variables */
+  --header: 3rem;
+  --footer: 40px;
+  --main: calc(100vh - calc(var(--header) + var(--footer)));
 
-	/* select minimum/max available value */
+  /* select minimum/max available value */
 
-	width: min(150px, 100%);
-	/* selects 150px if available, else 100% of parent's width */
+  width: min(150px, 100%);
+  /* selects 150px if available, else 100% of parent's width */
 
-	width: max(150px, 100%);
-	/* selects 100% if available, else 150px */
+  width: max(150px, 100%);
+  /* selects 100% if available, else 150px */
 
-	width: clamp(320px, 80vw, 60rem);
-	/* smallest | ideal | largest */
+  width: clamp(320px, 80vw, 60rem);
+  /* smallest | ideal | largest */
 }

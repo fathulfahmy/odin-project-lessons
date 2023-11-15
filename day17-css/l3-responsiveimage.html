@@ -1,37 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Responsive Image</title>
-	</head>
-	<body>
-		<img src="picture.jpg" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Image</title>
+  </head>
+  <body>
+    <img src="picture.jpg" />
 
-		<img
-			srcset="picture-480w.jpg 480w, picture-800w 800w"
-			sizes="480px, 800px"
-		/>
-		<!-- choose picture-480w.jpg when 480px or less -->
+    <img
+      srcset="picture-480w.jpg 480w, picture-800w 800w"
+      sizes="480px, 800px"
+    />
+    <!-- choose picture-480w.jpg when 480px or less -->
 
-		<img
-			srcset="picture-480w.jpg 480w, picture-800w 800w"
-			sizes="(max-width: 600px)480px, 800px"
-		/>
-		<!-- choose picture-480w.jpg when 600px or less -->
+    <img
+      srcset="picture-480w.jpg 480w, picture-800w 800w"
+      sizes="(max-width: 600px)480px, 800px"
+    />
+    <!-- choose picture-480w.jpg when 600px or less -->
 
-		<img srcset="picture-480w.jpg, picture-800w 1.5x" />
-		<!-- choose picture-480w.jpg when system scale 1X -->
+    <img srcset="picture-480w.jpg, picture-800w 1.5x" />
+    <!-- choose picture-480w.jpg when system scale 1X -->
 
-		<picture>
-			<source media="(max-width: 799px)" srcset="picture-480w.jpg" />
-			<!-- choose picture-480w.jpg for 799px or less -->
+    <picture>
+      <source media="(max-width: 799px)" srcset="picture-480w.jpg" />
+      <!-- choose picture-480w.jpg for 799px or less -->
 
-			<source media="(min-width: 800px)" srcset="picture-800w.jpg" />
-			<!-- choose picture-800w.jpg for 800px or more -->
+      <source media="(min-width: 800px)" srcset="picture-800w.jpg" />
+      <!-- choose picture-800w.jpg for 800px or more -->
 
-			<img src="picture.jpg" />
-			<!-- choose picture.jpg if none of the source applied -->
-		</picture>
-	</body>
+      <img src="picture.jpg" />
+      <!-- choose picture.jpg if none of the source applied -->
+    </picture>
+  </body>
 </html>

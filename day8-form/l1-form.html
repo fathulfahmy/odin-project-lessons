@@ -1,79 +1,79 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Form</title>
-	</head>
-	<body>
-		<form action="#" method="post">
-			<fieldset>
-				<legend>Account</legend>
-				<label for="first_name">First name:</label>
-				<input type="text" name="first_name" id="first_name" />
-				<!-- for and id for frontend name for backend -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Account</legend>
+        <label for="first_name">First name:</label>
+        <input type="text" name="first_name" id="first_name" />
+        <!-- for and id for frontend name for backend -->
 
-				<label for="user_email">Email:</label>
-				<input type="email" name="user_email" id="user_email" />
+        <label for="user_email">Email:</label>
+        <input type="email" name="user_email" id="user_email" />
 
-				<label for="user_password">Password:</label>
-				<input type="password" name="user_password" id="user_password" />
-			</fieldset>
+        <label for="user_password">Password:</label>
+        <input type="password" name="user_password" id="user_password" />
+      </fieldset>
 
-			<fieldset>
-				<legend>About</legend>
-				<label for="hobby">Hobby:</label>
-				<select name="hobby" id="hobby">
-					<optgroup label="outdoor">
-						<option value="basketball">Basketball</option>
-						<option value="badminton">Badminton</option>
-						<option value="football">Football</option>
-					</optgroup>
-					<optgroup label="indoor">
-						<option value="chess" selected>Chess</option>
-						<option value="carrom">Carrom</option>
-						<option value="poker">Poker</option>
-					</optgroup>
-				</select>
+      <fieldset>
+        <legend>About</legend>
+        <label for="hobby">Hobby:</label>
+        <select name="hobby" id="hobby">
+          <optgroup label="outdoor">
+            <option value="basketball">Basketball</option>
+            <option value="badminton">Badminton</option>
+            <option value="football">Football</option>
+          </optgroup>
+          <optgroup label="indoor">
+            <option value="chess" selected>Chess</option>
+            <option value="carrom">Carrom</option>
+            <option value="poker">Poker</option>
+          </optgroup>
+        </select>
 
-				<legend>Gender</legend>
-				<input type="radio" name="user_gender" id="male" value="male" />
-				<label for="male">Male</label>
+        <legend>Gender</legend>
+        <input type="radio" name="user_gender" id="male" value="male" />
+        <label for="male">Male</label>
 
-				<input type="radio" name="user_gender" id="female" value="female" />
-				<label for="male">Female</label>
+        <input type="radio" name="user_gender" id="female" value="female" />
+        <label for="male">Female</label>
 
-				<input type="radio" name="user_gender" id="not-sure" value="not-sure" />
-				<label for="male">Not sure</label>
+        <input type="radio" name="user_gender" id="not-sure" value="not-sure" />
+        <label for="male">Not sure</label>
 
-				<legend>Skills</legend>
-				<input
-					type="checkbox"
-					name="skills"
-					id="problem-solving"
-					value="problem-solving"
-				/>
-				<label for="problem-solving">Problem Solving</label>
+        <legend>Skills</legend>
+        <input
+          type="checkbox"
+          name="skills"
+          id="problem-solving"
+          value="problem-solving"
+        />
+        <label for="problem-solving">Problem Solving</label>
 
-				<input
-					type="checkbox"
-					name="skills"
-					id="project-management"
-					value="project-management"
-				/>
-				<label for="project-management">Project Management</label>
+        <input
+          type="checkbox"
+          name="skills"
+          id="project-management"
+          value="project-management"
+        />
+        <label for="project-management">Project Management</label>
 
-				<input
-					type="checkbox"
-					name="skills"
-					id="creative-thinking"
-					value="creative-thinking"
-				/>
-				<label for="creative-thinking">Creative Thinking</label>
-			</fieldset>
+        <input
+          type="checkbox"
+          name="skills"
+          id="creative-thinking"
+          value="creative-thinking"
+        />
+        <label for="creative-thinking">Creative Thinking</label>
+      </fieldset>
 
-			<button type="submit">Submit</button>
-			<button type="reset">Clear</button>
-		</form>
-	</body>
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+    </form>
+  </body>
 </html>

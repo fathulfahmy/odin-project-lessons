@@ -4,43 +4,43 @@
 
 /* id > class > type */
 .heading1 {
-	font-size: 16px;
+  font-size: 16px;
 }
 h1 {
-	font-size: 18px;
+  font-size: 18px;
 }
 #heading1 {
-	/* this css rule is applied */
-	font-size: 22px;
+  /* this css rule is applied */
+  font-size: 22px;
 }
 
 /* NUMBER OF SELECTORS */
 .navbar {
-	width: 100%;
+  width: 100%;
 }
 .navbar .mobile {
-	/* this rule is applied */
-	width: 50%;
+  /* this rule is applied */
+  width: 50%;
 }
 
 /* INHERITANCE */
 #parent {
-	color: red;
+  color: red;
 }
 .child {
-	/* directly targeted, this rule is applied */
-	color: blue;
+  /* directly targeted, this rule is applied */
+  color: blue;
 }
 
 /* ORDER OF DECLARATION */
 /* last rule is applied */
 .navbar.mobile {
-	width: 50%;
+  width: 50%;
 }
 .navbar > .mobile {
-	width: 50px;
+  width: 50px;
 }
 .navbar .mobile {
-	/* this rule is applied */
-	width: auto;
+  /* this rule is applied */
+  width: auto;
 }

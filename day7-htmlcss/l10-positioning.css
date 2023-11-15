@@ -1,22 +1,22 @@
 .static-container {
-	display: static;
-	/* not affected by top left bottom right */
+  display: static;
+  /* not affected by top left bottom right */
 }
 .relative-container {
-	display: relative;
-	top: 10px;
-	left: 10px;
-	/* positioned relative to parent element */
+  display: relative;
+  top: 10px;
+  left: 10px;
+  /* positioned relative to parent element */
 }
 .absolute-container {
-	display: absolute;
-	/* positioned out of normal flow */
+  display: absolute;
+  /* positioned out of normal flow */
 }
 .fixed-container {
-	display: fixed;
-	/* fixed position when scrolled */
+  display: fixed;
+  /* fixed position when scrolled */
 }
 .sticky-container {
-	display: sticky;
-	/* fixed position when out of viewport */
+  display: sticky;
+  /* fixed position when out of viewport */
 }

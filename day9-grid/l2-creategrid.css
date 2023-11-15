@@ -1,20 +1,20 @@
 .grid-container {
-	display: grid;
-	grid-template-columns: 50px 50px 50px;
-	grid-template-rows: 75px 75px;
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 75px 75px;
 
-	grid-template: 50px 50px 50px / 75px 75px;
-	/* grid template shorthand specify height or width row / column */
+  grid-template: 50px 50px 50px / 75px 75px;
+  /* grid template shorthand specify height or width row / column */
 
-	grid-auto-rows: 50px;
-	/* set implicit grid height */
+  grid-auto-rows: 50px;
+  /* set implicit grid height */
 
-	grid-auto-flow: column;
-	/* set implicit grid direction */
+  grid-auto-flow: column;
+  /* set implicit grid direction */
 
-	row-gap: 100px;
-	column-gap: 10px;
+  row-gap: 100px;
+  column-gap: 10px;
 
-	gap: 100px 10px;
-	/* gap shorthand specify height or width row column */
+  gap: 100px 10px;
+  /* gap shorthand specify height or width row column */
 }

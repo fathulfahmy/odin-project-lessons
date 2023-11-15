@@ -19,7 +19,7 @@ x *= 2;
 x /= 2;
 
 // convert string to numbers
-let str = '32';
+let str = "32";
 num = Number(str) + 3;
 
 // convert numbers to string

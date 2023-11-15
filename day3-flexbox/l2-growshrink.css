@@ -3,24 +3,24 @@
 /* flex item shrink when container width is less than item */
 
 .flex-item {
-	/* set flex item width scale */
+  /* set flex item width scale */
 
-	flex-shrink: 0;
-	/* do not shrink */
+  flex-shrink: 0;
+  /* do not shrink */
 
-	flex-shrink: 3;
-	/* shrink 3X scale */
+  flex-shrink: 3;
+  /* shrink 3X scale */
 
-	/* set flex item width */
+  /* set flex item width */
 
-	flex-basis: 0;
-	/* width 0 */
+  flex-basis: 0;
+  /* width 0 */
 
-	flex-basis: auto;
-	/* width same as content */
+  flex-basis: auto;
+  /* width same as content */
 }
 
 .flex-container {
-	flex: auto;
-	/* same as flex: 1 1 auto */
+  flex: auto;
+  /* same as flex: 1 1 auto */
 }

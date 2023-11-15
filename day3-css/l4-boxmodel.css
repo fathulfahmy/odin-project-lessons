@@ -2,36 +2,36 @@
 
 /* OUTER DISPLAY */
 .box1 {
-	display: block;
-	width: 100px;
-	height: 100px;
-	padding: 50px;
-	margin: 50px;
-	border: 2px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+  margin: 50px;
+  border: 2px;
 }
 .box2 {
-	display: inline;
-	/* inline display has no width, height, vertical padding and margin */
-	padding-left: 25px;
-	padding-right: 25px;
-	margin-left: 25px;
-	margin-right: 25px;
+  display: inline;
+  /* inline display has no width, height, vertical padding and margin */
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .box3 {
-	display: inline-block;
-	/* inline-block has property of block display but positioned as inline display */
-	width: 100px;
-	height: 100px;
-	padding: 50px;
-	margin: 50px;
-	border: 2px;
+  display: inline-block;
+  /* inline-block has property of block display but positioned as inline display */
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+  margin: 50px;
+  border: 2px;
 }
 
 /* INNER DISPLAY */
 /* flex and grid defaults to block outer display property */
 .box4 {
-	display: flex;
+  display: flex;
 }
 .box5 {
-	display: grid;
+  display: grid;
 }

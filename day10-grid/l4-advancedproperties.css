@@ -1,34 +1,34 @@
 /* static number of col tracks */
 .grid-container {
-	display: grid;
-	grid-template-rows: 50px 50px;
-	grid-template-columns: repeat(3, 50px);
+  display: grid;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: repeat(3, 50px);
 }
 
 .grid-container {
-	display: grid;
-	grid-template-rows: 50px 50px;
-	grid-template-columns: repeat(3, minmax(50px, 100px));
-	/* create 3 column of minimum 50px each or max 100px */
+  display: grid;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: repeat(3, minmax(50px, 100px));
+  /* create 3 column of minimum 50px each or max 100px */
 }
 
 .grid-container {
-	display: grid;
-	grid-template-rows: 50px 50px;
-	grid-template-columns: repeat(3, clamp(50px, 80%, 150px));
-	/* create 3 column with 80% grid width except it cannot be less than 50px and more than 150px*/
+  display: grid;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: repeat(3, clamp(50px, 80%, 150px));
+  /* create 3 column with 80% grid width except it cannot be less than 50px and more than 150px*/
 }
 
 .grid-container {
-	display: grid;
-	grid-template-rows: 50px 50px;
-	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-	/* auto-fit return integer from (grid width / min width) and each track cannot be more than 1fr */
+  display: grid;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  /* auto-fit return integer from (grid width / min width) and each track cannot be more than 1fr */
 }
 
 .grid-container {
-	display: grid;
-	grid-template-rows: 50px 50px;
-	grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-	/* auto fill fill empty space when grid item is less than available space */
+  display: grid;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  /* auto fill fill empty space when grid item is less than available space */
 }

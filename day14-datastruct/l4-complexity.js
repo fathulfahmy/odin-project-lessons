@@ -3,7 +3,7 @@ const smallArray = [0, 10, 20];
 const largeArray = [0, 10, 20, 30, 40, 50, 60];
 
 function getNumAtIndex(array, userIndex) {
-	return `Num at [${userIndex}] is ${array[userIndex]}`;
+  return `Num at [${userIndex}] is ${array[userIndex]}`;
 }
 console.log(getNumAtIndex(smallArray, 1)); // 1 step
 console.log(getNumAtIndex(largeArray, 1)); // 1 step
@@ -11,20 +11,20 @@ console.log(getNumAtIndex(largeArray, 1)); // 1 step
 // O(1)
 
 function getIndexFromNum(array, userNum) {
-	let low = 0;
-	let high = array.length - 1;
+  let low = 0;
+  let high = array.length - 1;
 
-	while (low <= high) {
-		let mid = low + (high - low) / 2;
+  while (low <= high) {
+    let mid = low + (high - low) / 2;
 
-		if (array[mid] == userNum) {
-			return `${userNum} found at [${mid}]`;
-		} else if (array[mid] < userNum) {
-			low = mid + 1;
-		} else {
-			high = mid - 1;
-		}
-	}
+    if (array[mid] == userNum) {
+      return `${userNum} found at [${mid}]`;
+    } else if (array[mid] < userNum) {
+      low = mid + 1;
+    } else {
+      high = mid - 1;
+    }
+  }
 }
 console.log(getIndexFromNum(smallArray, 20)); // 2 step
 console.log(getIndexFromNum(largeArray, 20)); // 3 step
@@ -32,11 +32,11 @@ console.log(getIndexFromNum(largeArray, 20)); // 3 step
 // O(log n)
 
 function getTotalNum(array) {
-	let total = 0;
-	for (let index = 0; index < array.length; index++) {
-		total += array[index];
-	}
-	return `Total num is ${total}`;
+  let total = 0;
+  for (let index = 0; index < array.length; index++) {
+    total += array[index];
+  }
+  return `Total num is ${total}`;
 }
 console.log(getTotalNum(smallArray)); // 2 step
 console.log(getTotalNum(largeArray)); // 6 step

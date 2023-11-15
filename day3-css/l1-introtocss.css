@@ -2,57 +2,57 @@
 
 /* anatomy of external css */
 .selector {
-	height: 100px;
-	/* property: value */
+  height: 100px;
+  /* property: value */
 }
 
 /* TYPE OF SELECTORS */
 
 * {
-	color: #1100ff;
+  color: #1100ff;
 }
 /* universal selector selects all elements */
 
 div {
-	border-color: rgb(100, 0, 127);
+  border-color: rgb(100, 0, 127);
 }
 /* type selector selects elements with specified type */
 
 .class {
-	background-color: hsl(15, 82, 56);
+  background-color: hsl(15, 82, 56);
 }
 /* class selector selects elements with specified class */
 
 #id {
-	height: 100px;
+  height: 100px;
 }
 /* id selector selects element with specified id */
 
 .read,
 .marked {
-	color: green;
+  color: green;
 }
 /* group selectors (OR) by using commas */
 
 .read.rated {
-	color: blue;
+  color: blue;
 }
 /* chain selectors (AND) by using . */
 
 .ancestor .any-child {
-	color: red;
+  color: red;
 }
 /* descendant combinator selects specified child to an ancestor*/
 
 /* FONTS */
 body {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	/* font priority - top priority, fallback 1, fallback 2, fallback 3 */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font priority - top priority, fallback 1, fallback 2, fallback 3 */
 
-	font-size: 22px;
-	font-weight: bold;
-	font-weight: 700;
+  font-size: 22px;
+  font-weight: bold;
+  font-weight: 700;
 
-	text-align: center;
-	/* align text horizontally */
+  text-align: center;
+  /* align text horizontally */
 }
