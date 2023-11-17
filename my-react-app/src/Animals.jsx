@@ -1,4 +1,4 @@
-function FirstMethod() {
+function HardcodeList() {
   return (
     <>
       <h1>Animals</h1>
@@ -11,7 +11,7 @@ function FirstMethod() {
   );
 }
 
-function SecondMethod() {
+function MapItemInsideList() {
   const animals = ["Lion", "Snake", "Eagle"];
 
   return (
@@ -26,7 +26,7 @@ function SecondMethod() {
   );
 }
 
-function ThirdMethod() {
+function MapItemOutsideList() {
   const animals = ["Lion", "Snake", "Eagle"];
   const animalsList = animals.map((animal) => {
     return <li key={animal}>{animal}</li>;
@@ -40,10 +40,10 @@ function ThirdMethod() {
   );
 }
 
-function FourthMethodListItem(props) {
+function ListItem(props) {
   return <li>{props.animal}</li>;
 }
-function FourthMethodList(props) {
+function List(props) {
   return (
     <ul>
       {props.animals.map((animal) => {
@@ -52,7 +52,7 @@ function FourthMethodList(props) {
     </ul>
   );
 }
-function FourthMethod() {
+function CreateList() {
   const animals = ["Lion", "Snake", "Eagle"];
   return (
     <>
@@ -62,7 +62,7 @@ function FourthMethod() {
   );
 }
 
-function FifthMethodListTernary(props) {
+function TernaryList(props) {
   return (
     <ul>
       {props.animals.map((animal) => {
@@ -71,7 +71,7 @@ function FifthMethodListTernary(props) {
     </ul>
   );
 }
-function FifthMethodListAmpersand(props) {
+function AmpersandList(props) {
   return (
     <ul>
       {props.animals.map((animal) => {
@@ -80,7 +80,7 @@ function FifthMethodListAmpersand(props) {
     </ul>
   );
 }
-function FifthMethodListConditional(props) {
+function ConditionalList(props) {
   if (!props.animals) {
     return <div>Loading...</div>;
   }
@@ -97,14 +97,14 @@ function FifthMethodListConditional(props) {
     </ul>
   );
 }
-function FifthMethod() {
+function CreateListAlt() {
   const animals = ["Lion", "Snake", "Eagle"];
   return (
     <>
       <h1>Animals</h1>
-      <FifthMethodListConditional animals={animals} />
+      <ConditionalList animals={animals} />
     </>
   );
 }
 
-export default FifthMethod;
+export default CreateListAlt;
