@@ -8,10 +8,12 @@ function ConvertToJsx() {
         <li>List item 3</li>
       </ol>
       <svg>
-        <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
+        <circle cx="25" cy="75" r="20" stroke="cyan" strokeWidth="2" />
+        {/* attribute follows camelCase convention */}
       </svg>
       <form>
         <input type="text" />
+        {/* void tag need to be closed with slash */}
       </form>
     </>
   );
