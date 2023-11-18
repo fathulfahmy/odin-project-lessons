@@ -27,7 +27,13 @@ function StateControl() {
       <button onClick={handleIncreaseAgeTwice}>Increase age twice</button>
 
       {/* control components by updating native HTML internal state*/}
-      <input type="text" value={person.age} onChange={(event)=>{event.target.value}} />
+      <input
+        type="text"
+        value={person.age}
+        onChange={(event) => {
+          event.target.value;
+        }}
+      />
     </>
   );
 }

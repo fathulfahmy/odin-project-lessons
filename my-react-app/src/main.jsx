@@ -8,6 +8,7 @@ import Animals from "./Animals.jsx";
 import PassingData from "./PassingData.jsx";
 import IntroToState from "./IntroToState.jsx";
 import StateControl from "./StateControl.jsx";
+import Clock from "./SideEffect";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,5 +18,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <PassingData text="Click me!" fontSize={12} />
     <IntroToState />
     <StateControl />
+    <Clock />
   </React.StrictMode>,
 );
