@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function StateControl() {
+function Person() {
   const [person, setPerson] = useState({ name: "John", age: 100 });
 
   const handleIncreaseAge = () => {
@@ -38,4 +38,4 @@ function StateControl() {
   );
 }
 
-export default StateControl;
+export default Person;

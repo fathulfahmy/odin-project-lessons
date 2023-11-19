@@ -1,4 +1,4 @@
-function ConvertToJsx() {
+function FirstComponent() {
   return (
     <>
       <h1>Test title</h1>
@@ -19,4 +19,4 @@ function ConvertToJsx() {
   );
 }
 
-export default ConvertToJsx;
+export default FirstComponent;

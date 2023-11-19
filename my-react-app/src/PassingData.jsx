@@ -1,4 +1,4 @@
-function PassingData(props) {
+function Button(props) {
   const buttonStyle = {
     color: props.color,
     fontSize: `${props.fontSize}px`,
@@ -24,13 +24,13 @@ function PropsDestructuring({ color, fontSize, text }) {
   );
 }
 
-PassingData.defaultProps = {
+Button.defaultProps = {
   text: "Click me!",
   color: "cyan",
   fontSize: 12,
 };
 
-function DefaultPropsDestructuring({
+function PropsDestructuringWithDefaults({
   color = "yellow",
   fontSize = 12,
   text = "Click me!",
@@ -47,4 +47,4 @@ function DefaultPropsDestructuring({
   );
 }
 
-export default PassingData;
+export default Button;

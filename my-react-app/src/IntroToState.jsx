@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const COLORS = ["pink", "green", "blue", "yellow", "purple"];
 
-function IntroToState() {
+function ChangeColor() {
   const [backgroundColor, setBackgroundColor] = useState(COLORS[0]);
   const [clickCount, setClickCount] = useState(0);
 
@@ -37,4 +37,4 @@ function IntroToState() {
   );
 }
 
-export default IntroToState;
+export default ChangeColor;
